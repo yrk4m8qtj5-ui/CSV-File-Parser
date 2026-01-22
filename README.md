@@ -13,7 +13,4 @@ This is a python application developed to process student academic records. It r
 - Language: Python
 - Input Format: CSV (Comma Separated Values)
 
-## How to Run
-1. Download the `main.cpp` file.
-2. Compile using g++: `g++ main.cpp -o sorter`
-3. Run the executable: `./sorter`
+
