@@ -1,16 +1,13 @@
-# CSV-File-Parser
-A python tool to read and clean student data from CSV files.
+# Student Data Grouping Tool (Python)
 
-# Student Data Processing Tool
-## Description
-This is a python application developed to process student academic records. It reads data from a CSV file and parses the information, making it ready to use to sort.
+## Overview
+A Python utility designed to ingest raw student data from CSV files and restructure it for class management. It transforms a flat list of records into a dictionary-based structure grouped by Tutorial Classes.
 
-## Features
-1. Cleaning of data by removing unneccessary whitespaces from string using `split` and `strip`
-2. Creates a `dict` based on pre-assigned tutorial group number, then removing tutorial no. from the students' data using `.pop`
+## Key Features
+- **CSV Parsing:** Reads and cleans raw text data.
+- **Data Transformation:** Converts flat records into nested Dictionary/List structures.
+- **Data Typing:** Handled type conversion for numerical analysis (CGPA).
 
-## Tech Stack
-- Language: Python
-- Input Format: CSV (Comma Separated Values)
-
-
+## How to Run
+1. Ensure `records.csv` is in the same folder.
+2. Run `python data_parser.py`.
